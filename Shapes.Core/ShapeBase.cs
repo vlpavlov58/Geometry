@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Shapes.Core
 {
-    public class Class1
+    public abstract class ShapeBase
     {
+        public abstract double GetPerimetr();
+
+        public abstract double GetSquare();
     }
 }
