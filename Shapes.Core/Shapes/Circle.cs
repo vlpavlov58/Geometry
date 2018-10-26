@@ -15,7 +15,7 @@ namespace Shapes.Core.Shapes
             return 2 * Math.PI * Radius;
         }
 
-        public override double GetSquare()
+        public override double GetArea()
         {
             return Math.PI * Math.Pow(Radius, 2);
         }    

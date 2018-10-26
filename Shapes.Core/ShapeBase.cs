@@ -10,6 +10,6 @@ namespace Shapes.Core
     {
         public abstract double GetPerimetr();
 
-        public abstract double GetSquare();
+        public abstract double GetArea();
     }
 }

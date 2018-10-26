@@ -22,7 +22,7 @@ namespace Shapes.Core.Shapes
             return Math.PI * (this.Semiaxis1 + this.Semiaxis2);
         }
 
-        public override double GetSquare()
+        public override double GetArea()
         {
             return Math.PI * Semiaxis1 * Semiaxis2;
         }

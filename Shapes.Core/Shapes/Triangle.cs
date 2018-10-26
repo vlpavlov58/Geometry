@@ -9,27 +9,18 @@ namespace Shapes.Core.Shapes
     public class Triangle : ShapeBase
     {
         public double Height { get; set; }
-        public double Footing { get; set; }
-        public double Side1 { get; set; }
-        public double Side2 { get; set; }
-
-        public Triangle (double height, double footing, double side1, double side2)
-        {
-            this.Height = height;
-            this.Footing = footing;
-            this.Side1 = side1;
-            this.Side2 = side2;
-        }
-
+        public double Side_A { get; set; }
+        public double Side_B { get; set; }
+        public double Side_C { get; set; }
 
         public override double GetPerimetr()
         {
-            return Footing + Side1 + Side2;
+            return Side_A + Side_B + Side_C;
         }
 
-        public override double GetSquare()
+        public override double GetArea()
         {
-            return 0.5 * Footing * Height;
+            return 0.5 * Side_A * Height;
         }
     }
 }

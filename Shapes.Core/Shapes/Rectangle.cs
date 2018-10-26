@@ -22,7 +22,7 @@ namespace Shapes.Core.Shapes
             return 2*Width+2*Height;
         }
 
-        public override double GetSquare()
+        public override double GetArea()
         {
             return Width * Height;
         }
