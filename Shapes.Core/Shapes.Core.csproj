@@ -46,6 +46,7 @@
     <Compile Include="Shapes\Ellipse.cs" />
     <Compile Include="Shapes\Rectangle.cs" />
     <Compile Include="Shapes\Square.cs" />
+    <Compile Include="Shapes\Triangle.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
